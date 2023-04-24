@@ -1,0 +1,54 @@
+.parallax-header {
+    background: #000;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.8)
+        ), url(images/bg1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+    padding: 100px 0 150px 0;
+}
+
+.content{
+    margin-top: -80px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 20px -6px rgb(0, 0, 0);
+}
+
+.content .left{
+    padding-top: 20px;
+}
+
+.content .right{
+    padding: 0;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.content .bottom{
+    background: #9d1d07;
+    padding: 20px;
+}
+
+.primary-color{
+    color: #9d1d07;
+}
+
+.ck3-icon{
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 0 2px -2px black;
+}
+
+.ck3-GuideBulletPoint{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
